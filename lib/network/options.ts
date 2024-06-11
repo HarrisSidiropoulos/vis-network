@@ -66,6 +66,12 @@ const nodeOptions: OptionsConfig = {
     y: { boolean: bool },
     __type__: { object, boolean: bool },
   },
+  badge: {
+    text: { string },
+    background: { string },
+    color: { string },
+    __type__: { object, string },
+  },
   font: {
     align: { string },
     color: { string },

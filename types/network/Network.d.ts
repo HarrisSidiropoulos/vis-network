@@ -911,6 +911,12 @@ export interface NodeOptions {
     y?: boolean,
   };
 
+  badge?: {
+    label: string,
+    background: string,
+    color: string,
+  }
+
   font?: string | Font;
 
   group?: string;
